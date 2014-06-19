@@ -17,7 +17,12 @@ angular.module('appMaps', ['google-maps'])
             var ret = {
                 latitude: latitude,
                 longitude: longitude,
-                title: 'm' + i
+                title: 'm' + i,
+                show: false
+            };
+            ret.onClick = function() {
+                console.log("Clicked!");
+                ret.show = !ret.show;
             };
             ret[idKey] = i;
             return ret;

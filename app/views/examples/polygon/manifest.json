@@ -1,4 +1,4 @@
 {
-    "name": "markers",
+    "name": "polygon",
     "files": ["index.html", "script.js", "../base/plnkr.html"]
 }

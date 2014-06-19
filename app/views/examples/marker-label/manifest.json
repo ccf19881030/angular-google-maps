@@ -1,4 +1,4 @@
 {
-    "name": "layer",
+    "name": "markers-label",
     "files": ["index.html", "script.js", "../base/plnkr.html"]
 }

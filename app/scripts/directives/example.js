@@ -33,7 +33,6 @@ angular.module('angularGoogleMapsApp')
                 });
 
                 var iframe = $element.find("iframe");
-                console.log("Iframe", iframe);
                 iframe.attr("src", "/views/examples/base/base.html?example=" + $scope.example);
             }]
         };

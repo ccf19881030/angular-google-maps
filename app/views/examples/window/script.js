@@ -7,13 +7,8 @@ angular.module('appMaps', ['google-maps'])
                 latitude: 40.1451,
                 longitude: -99.6680
             },
-            options: { draggable: true },
-            events: {
-                dragend: function (marker, eventName, args) {
-                    $log.log('marker dragend');
-                    $log.log(marker.getPosition().lat());
-                    $log.log(marker.getPosition().lng());
-                }
-            }
-        }
+            show: false
+        };
+
+        $scope.title = "Window Title!";
     });
